@@ -1,0 +1,27 @@
+{
+  "short_name": "todo List",
+  "name": "todo List",
+  "description": "An example todo App",
+  "icons": [
+    {
+      "src": "",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/web/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/web/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "background_color": "#2d2c2c",
+  "theme_color": "#2d2c2c",
+  "display": "standalone"
+}

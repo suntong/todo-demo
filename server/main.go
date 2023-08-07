@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/maxence-charriere/go-app/v9/pkg/app"
-	"github.com/metatexx/go-app-todo/frontend"
 	"log"
 	"net/http"
+
+	"github.com/maxence-charriere/go-app/v9/pkg/app"
+	"github.com/metatexx/go-app-todo/frontend"
 )
 
 func main() {
@@ -45,8 +46,8 @@ func main() {
 			AppleTouch: "/web/icon-192.png",
 		},
 	})
-	fmt.Println("Listening on http://127.0.0.1:8001")
-	if err := http.ListenAndServe("127.0.0.1:8001", nil); err != nil {
+	fmt.Println("Listening on http://:8001")
+	if err := http.ListenAndServe(":8001", nil); err != nil {
 		log.Fatal(err)
 	}
 }
